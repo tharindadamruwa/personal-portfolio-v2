@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+/* navbar css */
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px 0 100px;
+    z-index: 10;
+}
+
+nav .logo {
+    font-size: 25px;
+    color: cyan;
+    border: 2px solid cyan;
+    padding: 0.3px 5px;
+    border-radius: 4px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-bottom: 3px;
+    transition: all 0.3 ease-in-out;
+}
+
+nav ul li a:hover {
+    color: cyan;
+    border-bottom: 2px solid cyan;
+}
+
+#click {
+    display: none;
+}
+
+nav .menu-btn i {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+
+/* home css */
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #111;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+.banner .row {
+    position: relative;
+    top: -50%;
+    left: -50%;
+    width: 100%;
+    display: flex;
+    padding: 10px 0;
+    white-space: nowrap;
+    font-size: 50px;
+    transform: rotate(-30deg);
+}
+
+.banner .row div i {
+    color: rgba(0, 0, 0, 0.9);
+    transition: 0.8s;
+    padding: 0 5px;
+    user-select: none;
+    cursor: default;
+}
+
+.banner .row div i:hover {
+    color: #0f0;
+    transition: 0s;
+    text-shadow: 0 0 120px #0f0;
+}
+
+.banner .row {
+    animation: animate 80s linear infinite;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content h1 {
+    color: cyan;
+    text-shadow: 0 0 120px cyan;
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.content h1 span {
+    font-family: 'Ms Madi', cursive;
+    font-size: 65px;
+    letter-spacing: 3px;
+    color: #fcda45;
+    text-shadow: 0 0 120px #fcda45;
+}
+
+.content p {
+    text-align: center;
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 3px;
+}
+
+/* about css */
+
+.about-section {
+    width: 100%;
+    min-height: 100vh;
+    background: #ddd;
+}
+
+.about-continer {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.about-content-section {
+    float: left;
+    width: 55%;
+}
+
+.about-image-section {
+    float: right;
+    width: 30%;
+    height: auto;
+}
+
+.about-image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+.about-content-section .about-title h1 {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.about-content-section .about-conetent h3 {
+    margin-top: 20px;
+    font-size: 21px;
+    color: #5d5d5d;
+    text-align: justify;
+}
+
+.about-content-section .about-conetent p {
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.about-content-section .about-conetent .about-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-content-section .about-conetent .about-button a {
+    padding: 8px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.4s;
+    font-size: 20px;
+    background: #5d5d5d;
+    box-shadow: 5px 5px 10px #a89d9d, -5px -5px 10px #fff;
+    letter-spacing: 1.5px;
+    border-radius: 3px;
+}
+
+.about-content-section .about-conetent .about-button a:hover {
+    background: #1b1b1b;
+    transition: 0.4s;
+}
+
+.about-content-section .about-social {
+    margin-top: 40px;
+}
+
+.about-content-section .about-social i {
+    transition: 0.4s;
+    color: #5d5d5d;
+    padding: 5px 10px;
+    font-size: 30px;
+}
+
+.about-content-section .about-social i:hover {
+    transition: 0.4s;
+    color: #111;
+}
+
+/* my work css */
+
+.work_section {
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(255, 255, 255, 0.437);
+}
+
+.work_continer {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.work_section .work_title {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#admin-btn {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #009688;
+    transition: 0.5s;
+}
+
+#admin-btn:hover  {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.work_row_section {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;
+    gap: 20px;
+    border-radius: 4px;
+}
+
+.work_row {
+    background: #ddd;
+    padding: 40px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .40s;
+}
+
+.work_row:hover {
+    box-shadow: 0px 15px 30px 0px rgb(0 0 0 / 70%);
+}
+
+.work_row .work_name {
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.work_row .work_dec {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.work_row .work_github_link a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(0, 107, 100);
+    transition: all 0.3s;
+}
+
+.work_row .work_github_link a:hover {
+    font-size: 19px;
+}
+
+/* contact css */
+
+.contact_section {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.437);
+}
+
+.contact_container {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 250px;
+    justify-content: center;
+}
+
+.contact_title {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact_row {
+    text-align: left;
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    font-family: 'Finlandica', sans-serif;
+    line-height: 3rem;
+}
+
+.contact_row a {
+    text-decoration: none;
+    color: rgb(0, 88, 84);
+    text-align: justify;
+    transition: 0.5s;
+}
+
+.contact_row:hover {
+    font-size: 1.5rem;
+    cursor: pointer;
+}

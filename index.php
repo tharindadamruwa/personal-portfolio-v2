@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tharinda Damruwan | Persanol Website</title>
 
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/res.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -1207,7 +1207,7 @@
                             mobile apps develop, logo design, grapic design, web apps develop and more...</p>
                         <div class="about-button">
 
-                            <a href="#contact">Contact</a>
+                            <a href="#contacts">Contact</a>
 
                         </div>
 
@@ -1300,13 +1300,35 @@
 
                     <div class="contact_row_section">
 
-                        <div class="contact_row">Email : <a target="_blank" href="mailto:suport.bbtdpwebsite@gmail.com">suport.bbtdpwebsite@gmail.com</a></div>
-                        <div class="contact_row">Instagram : <a target="_blank" href="https://www.instagram.com/tharindadamruwa/">@tharindadamruwa</a></div>
-                        <div class="contact_row">Twitter : <a target="_blank" href="https://twitter.com/tharindadamruwa">@tharindadamruwa</a></div>
-                        <div class="contact_row">WhatsApp : <a target="_blank" href="http://Wa.me/+94741207917?text=Hello.%20I%20want%20to%20contact%20Tharinda..">0741207917</a>
-                        </div>
+                        <div class="con-form">
 
-                    </div>
+                                <div class="con_item">
+
+                                    <label for="name">Enter your name<label><br>
+                                    <input type="text" name="name" id="name">
+
+                                </div>
+                                <div class="con_item">
+
+                                    <label for="name">Enter your name<label><br>
+                                    <input type="text" name="email" id="email" class="email">
+
+                                </div>
+                                <div class="con_item">
+
+                                    <label for="name">Enter your name<label><br>
+                                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+
+                                </div>
+                                <div class="con_item">
+
+                                    <input type="button" name="submit" id="submit" class="submit" value="Send">
+
+                                </div>
+
+                            </div>
+                            
+                        </div>
 
                 </div>
 

@@ -18,7 +18,7 @@ if (!$_SESSION['log']) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin | Tharinda Damruwan | Persanol Website</title>
 
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="png">
     <link rel="stylesheet" href="css/admin.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="js/admin.js"></script>

@@ -1300,35 +1300,12 @@
 
                     <div class="contact_row_section">
 
-                        <div class="con-form">
+                        <div class="contact_row">Email : <a target="_blank" href="mailto:suport.bbtdpwebsite@gmail.com">suport.bbtdpwebsite@gmail.com</a></div>
+                        <div class="contact_row">Instagram : <a target="_blank" href="https://www.instagram.com/tharindadamruwa/">@tharindadamruwa</a></div>
+                        <div class="contact_row">Twitter : <a target="_blank" href="https://twitter.com/tharindadamruwa">@tharindadamruwa</a></div>
+                        <div class="contact_row">WhatsApp : <a target="_blank" href="http://Wa.me/+94741207917?text=Hello.%20I%20want%20to%20contact%20Tharinda..">0741207917</a></div> 
 
-                                <div class="con_item">
-
-                                    <label for="name">Enter your name<label><br>
-                                    <input type="text" name="name" id="name">
-
-                                </div>
-                                <div class="con_item">
-
-                                    <label for="name">Enter your name<label><br>
-                                    <input type="text" name="email" id="email" class="email">
-
-                                </div>
-                                <div class="con_item">
-
-                                    <label for="name">Enter your name<label><br>
-                                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
-
-                                </div>
-                                <div class="con_item">
-
-                                    <input type="button" name="submit" id="submit" class="submit" value="Send">
-
-                                </div>
-
-                            </div>
-                            
-                        </div>
+                    </div>
 
                 </div>
 

@@ -340,13 +340,15 @@ nav .menu-btn i {
     justify-content: center;
     align-items: center;
 }
+
 .contact_title {
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 2px;
     font-size: 30px;
     text-align: center;
-    margin-bottom: 20px;margin-top: 100px;
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .contact_row {
@@ -373,10 +375,47 @@ nav .menu-btn i {
     display: block;
     width: 350px;
 }
-.con_item input{
-    
+
+.con_item input {
+    height: 45px;
 }
+
+.con_item label {
+    font-size: 18px;
+    color: #1b1b1b;
+}
+
 .con_item input,
 .con_item textarea {
     width: 100%;
+    margin-bottom: 10px;
+    outline: none;
+    border: 2px #5d5d5d solid;
+    border-radius: 2px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.con_item .submit {
+    background: #000;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.con_item .submit:hover {
+    background: #5d5d5d;
+    color: #fff;
+}
+
+.error-txt {
+    margin-top: 20px;
+    background: #ff5050be;
+    padding: 5px;
+    text-align: center;
+    color: #111;
+    font-weight: 500;
+    border-radius: 2px;
+    display: none;
 }

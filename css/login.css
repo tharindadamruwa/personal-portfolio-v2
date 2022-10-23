@@ -47,6 +47,12 @@
 .login_row label {
     width: 100%;
     outline: none;
+    border-radius: 2px;
+}
+
+.login_row input[type=text],
+.login_row [type=password] {
+    border: 2px solid #111;
 }
 
 .login_row #username,

@@ -32,6 +32,7 @@ nav .logo {
     border: 2px solid cyan;
     padding: 0.3px 5px;
     border-radius: 4px;
+    text-decoration: none;
 }
 
 nav ul {

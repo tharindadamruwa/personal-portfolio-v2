@@ -27,7 +27,7 @@
 
             <nav>
 
-                <div class="logo">BBTDP</div>
+                <a href="" class="logo">BBTDP</a>
                 <input type="checkbox" id="click">
                 <label for="click" class="menu-btn"><i class="fa-solid fa-bars"></i></label>
                 <ul class="nav-ul">

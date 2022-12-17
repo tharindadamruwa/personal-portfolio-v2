@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/res.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-
-    <script src="js/script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 </head>
 
 <body>
@@ -1195,12 +1195,12 @@
 
                 <div class="about-content-section">
 
-                    <div class="about-title">
+                    <div data-aos="fade-down" data-aos-duration="3000" class="about-title">
 
                         <h1>About Me</h1>
 
                     </div>
-                    <div class="about-conetent">
+                    <div data-aos="fade-right" data-aos-duration="2000" class="about-conetent">
 
                         <h3>I am front-end back-end developer with 1 year of experience.</h3>
                         <p>My name is Tharinda Damruwan and I'm programmer. I'm from Sri Lanka and I can web design,
@@ -1212,7 +1212,7 @@
                         </div>
 
                     </div>
-                    <div class="about-social">
+                    <div data-aos="fade-right" data-aos-duration="2000" class="about-social">
 
                         <a target="_blank" href="https://www.instagram.com/tharindadamruwa/"><i class="fa-brands fa-instagram"></i></a>
                         <a target="_blank" href="https://twitter.com/tharindadamruwa"><i class="fa-brands fa-twitter"></i></a>
@@ -1222,7 +1222,7 @@
 
                 </div>
 
-                <div class="about-image-section">
+                <div data-aos="fade-left" data-aos-duration="2000" class="about-image-section">
 
                     <img src="img/about.jpeg" alt="about image">
 
@@ -1247,7 +1247,7 @@
 
                 <div class="work_row_section">
 
-                    <!-- <div class="work_row">
+                    <!-- <div data-aos="zoom-in-up" data-aos-duration="2000" class="work_row">
 
                         <div class="work_name">Website</div>
                         <div class="work_dec">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, itaque.</div>
@@ -1266,7 +1266,7 @@
 
                         while ($records = mysqli_fetch_assoc($result)) {
                             
-                            $row .= "<div class='work_row'>";
+                            $row .= "<div data-aos='zoom-in-up' data-aos-duration='2000' class='work_row'>";
                             $row .= "<div class='work_name'>" . $records['name'] . "</div>";
                             $row .= "<div class='work_dec'>" . $records['description'] . "</div>";
                             $row .= "<div class='work_github_link'><a target='_blank' href=" . $records['git_link'] . ">Go To GitHub Repositories</a></div>";
@@ -1296,14 +1296,14 @@
 
                 <div class="contact_se">
 
-                    <div class="contact_title">Contact Me</div>
+                    <div data-aos="zoom-in" data-aos-duration="2000" class="contact_title">Contact Me</div>
 
                     <div class="contact_row_section">
 
-                        <div class="contact_row">Email : <a target="_blank" href="mailto:suport.bbtdpwebsite@gmail.com">suport.bbtdpwebsite@gmail.com</a></div>
-                        <div class="contact_row">Instagram : <a target="_blank" href="https://www.instagram.com/tharindadamruwa/">@tharindadamruwa</a></div>
-                        <div class="contact_row">Twitter : <a target="_blank" href="https://twitter.com/tharindadamruwa">@tharindadamruwa</a></div>
-                        <div class="contact_row">WhatsApp : <a target="_blank" href="http://Wa.me/+94741207917?text=Hello.%20I%20want%20to%20contact%20Tharinda..">0741207917</a></div> 
+                        <div data-aos="fade-left" data-aos-duration="2000" class="contact_row">Email : <a target="_blank" href="mailto:suport.bbtdpwebsite@gmail.com">suport.bbtdpwebsite@gmail.com</a></div>
+                        <div data-aos="fade-left" data-aos-duration="2000" class="contact_row">Instagram : <a target="_blank" href="https://www.instagram.com/tharindadamruwa/">@tharindadamruwa</a></div>
+                        <div data-aos="fade-right" data-aos-duration="2000" class="contact_row">Twitter : <a target="_blank" href="https://twitter.com/tharindadamruwa">@tharindadamruwa</a></div>
+                        <div data-aos="fade-right" data-aos-duration="2000" class="contact_row">WhatsApp : <a target="_blank" href="http://Wa.me/+94741207917?text=Hello.%20I%20want%20to%20contact%20Tharinda..">0741207917</a></div> 
 
                     </div>
 
@@ -1314,6 +1314,12 @@
         </div>
 
     </section>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

@@ -106,7 +106,7 @@
 
             <div class="work_continer">
 
-                <div class="work_title">My work</div>
+                <div class="work_title" style="color: #fff;">My work</div>
 
                 <center><a target='_blank' href='login.php' id='admin-btn'>Go To Admin</a></center>
 
